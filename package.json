@@ -1,0 +1,12 @@
+{
+  "name": "madnss-site",
+  "version": "1.0.0",
+  "description": "A site build with Madnss",
+  "scripts": {
+    "dev": "madnss --watch --serve --flavour vanilla",
+    "build": "madnss --flavour vanilla"
+  },
+  "dependencies": {
+    "madnss": "github:b1n01/madnss"
+  }
+}
